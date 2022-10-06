@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes dropdown{
+    from{height: 0px;}
+    to{height: 30px;}
+}
+
+
+
+
+body{
+    font-family: Comic Sans MS;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: red;
+}
+
+img{
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.main{
+    padding-left: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navi{
+    background-color: limegreen;
+}
+
+.menul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    padding: 1vw;
+    font-size: 1.3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.menu:hover{
+    background-color: rgb(44, 187, 44);
+}
