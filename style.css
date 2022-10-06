@@ -48,23 +48,23 @@ a{
 }
 
 .scenaryimg{
-    width: 30vw;
-    height: 30vh;
+    width: 400px;
+    height: 200px;
 }
 
 .thumbimg{
-    width: 25vw;
-    height: 30vh;
+    width: 400px;
+    height: 200px;
 }
 
 .cycleimg{
-    width: 10vw;
-    height: 30vh;
+    width: 150px;
+    height: 200px;
 }
 
 .bridgeimg{
-    width: 25vw;
-    height: 30vh;
+    width: 400px;
+    height: 200px;
 }
 
 .content{
