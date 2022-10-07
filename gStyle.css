@@ -10,8 +10,6 @@
 }
 
 
-
-
 body{
     font-family: Comic Sans MS;
     font-weight: bold;
@@ -37,8 +35,14 @@ a{
     color: black;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .navi{
-    background-color: limegreen;
+    background-color: rgb(58, 193, 255);;
+    margin-top: 3px;
 }
 
 .menul{
@@ -57,4 +61,47 @@ a{
 
 .menu:hover{
     background-color: rgb(44, 187, 44);
+}
+
+.linkul li{
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    
+}
+
+.submenu{
+    position: absolute;
+    display: block;
+    margin-top: 15px;
+    /* border: 3px solid black; */
+}
+.submenu li{
+    display: none;
+    height: 0px;
+    /* border: 3px solid black; */
+}
+
+.menu:hover .submenu li{
+    display: flex;
+    animation-name: dropdown;
+    animation-duration: 0.5s;
+    padding: 10px 27.5px 10px 27.5px ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -30px;
+}
+
+.menu .submenu li:hover{
+    background-color: rgb(254, 214, 255);
+}
+
+.linkul{
+    list-style: none;
+    display: flex;
 }

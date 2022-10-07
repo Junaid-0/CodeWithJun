@@ -43,15 +43,6 @@
     padding: 0;
 }
 
-body{
-    background-image: linear-gradient(lime,rgb(176, 176, 202),cyan);
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
 .container{
     position: relative;
     height: 100%;
@@ -102,8 +93,14 @@ a{
 }
 
 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .navi{
-    background-color: rgb(58, 193, 255);;
+    background-color: rgb(58, 193, 255);
     margin-top: 3px;
 }
 
