@@ -40,6 +40,8 @@
 
 .elfsight-app-2a2b8571-05ca-421f-8429-275affda29f5{
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -50px;
+    z-index: -1;
 }
 
 .visitorholder{
@@ -196,7 +198,7 @@ a{
 .submenu{
     position: absolute;
     display: block;
-    margin-top: 23px;
+    margin-top: 22px;
     margin-left: 20px;
     /* border: 3px solid black; */
 }
@@ -210,14 +212,14 @@ a{
     display: flex;
     animation-name: dropdown;
     animation-duration: 0.5s;
-    padding: 10px 0px 10px 27.5px ;
+    padding: 10px 22.5px 10px 27.5px ;
     /* text-align: center; */
     /* align-items: center; */
     justify-content: flex-end;
     width: 120px;
     height: 30px;
     background-color: rgb(255, 255, 255);
-    margin-left: -30px;
+    margin-left: -50px;
 }
 
 .menu .submenu li:hover{
@@ -229,11 +231,11 @@ a{
 
 .subdmenu{
     display: none;
-    margin-right: -160px;
+    margin-right: -192px;
 }
 
 .dmenu:hover a{
-    margin-right: 63.5px;
+    margin-right: 72px;
 }
 
 .dmenu{

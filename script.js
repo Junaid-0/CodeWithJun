@@ -1,9 +1,9 @@
-// new Audio("Audio/Rap-God.mp3").play()
+// // new Audio("Audio/Rap-God.mp3").play()
 
-let flightbox = document.getElementsByClassName("services")[0];
+// let flightbox = document.getElementsByClassName("services")[0];
 
-console.log(flightbox);
+// console.log(flightbox);
 
-flightbox.addEventListener("click", function(){
-    location.href = "https://akbartravels.com"
-})
+// flightbox.addEventListener("click", function(){
+//     location.href = "https://akbartravels.com"
+// })
