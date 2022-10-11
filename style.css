@@ -8,8 +8,30 @@
         transition: ease-in-out 0.5s;
         width: 400px;
         height: 200px;
-        border: 3px solid yellow;
+        border: 5px solid purple;
     }
+    
+    .mySlides{
+        width: 470px;
+        height: 235px;
+        border: 3px solid red;
+        transition: ease-in-out 0.5s;
+    }
+
+    .details{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+
+    #bomjir{
+        margin-left: 260px;
+    }
+    
+    #deopani{
+        margin-left: 760px;
+    }
+    
     .text{
         font-family: satisfy;
         font-size: 30px;
@@ -25,6 +47,28 @@
         height: 50px;
         border: 3px solid yellow;
     }
+    
+    .mySlides{
+        width: 117.5px;
+        height: 58.75px;
+        border: 3px solid red;
+        transition: ease-in-out 0.5s;
+    }
+
+    .details{
+        font-size: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+
+    #bomjir{
+        margin-left: 65px;
+    }
+    
+    #deopani{
+        margin-left: 190px;
+    }
+
     .text{
         font-family: satisfy;
         font-size: 10px;
@@ -55,7 +99,7 @@
     width: 10px;
     height: 10px;
     transition: ease-in-out 0.25s;
-    border: 3px solid black;
+    border: 3px solid white;
     margin-left: 97px;
     margin-top: -19px;
     border-top: 0;
@@ -70,6 +114,23 @@
 /* .dropdown{
     display: flex;
 } */
+
+
+.roing{
+    padding: 50px 10% 20px 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.roinghead{
+    display: flex;
+    justify-content: center;
+}
+
+.roingtext{
+    font-size: x-large;
+    text-align: justify;
+    font-style: italic;
+}
 
 *{
     margin: 0;
@@ -96,7 +157,9 @@
 }
 
 .scenary{
-    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content{
@@ -168,11 +231,15 @@
 
 a{
     text-decoration: none;
+    color: white;
+}
+
+.dropdown ul li a{
     color: black;
 }
 
 .navi{
-    background-color: rgb(58, 193, 255);
+    background-color: rgb(27, 99, 132);
     margin-top: 3px;
 }
 
