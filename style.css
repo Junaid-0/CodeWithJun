@@ -34,10 +34,34 @@
     
     .text{
         font-family: satisfy;
-        font-size: 30px;
+        font-size: 1.75vw;
         text-align: justify;
         padding-right: 3vw;
     }
+    .drop{
+        width: 10px;
+        height: 10px;
+        transition: ease-in-out 0.25s;
+        border: 3px solid white;
+        margin-left: 97px;
+        margin-top: -19px;
+        border-top: 0;
+        border-left: 0;
+        transform: rotate(-45deg);
+    }
+    .submenu{
+        position: absolute;
+        display: block;
+        margin-top: 22px;
+        margin-left: 20px;
+        /* border: 3px solid black; */
+    }
+    .dmenu:hover .subdmenu{
+        display: block;
+        margin-left: 12.5vw;
+        margin-top: -2vw;
+    }
+    
 }
 
 @media(max-width:600px){
@@ -71,15 +95,38 @@
 
     .text{
         font-family: satisfy;
-        font-size: 10px;
+        font-size: 3.25vw;
         text-align: justify;
         padding-right: 3vw;
+    }
+    .drop{
+        width: 1vw;
+        height: 1vw;
+        transition: ease-in-out 0.25s;
+        border: 3px solid white;
+        margin-left: 10vw;
+        margin-top: -1.4vw;
+        border-top: 0;
+        border-left: 0;
+        transform: rotate(-45deg);
+    }
+    .submenu{
+        position: absolute;
+        display: block;
+        margin-top: 1vw;
+        margin-left: 14.5vw;
+        /* border: 3px solid black; */
+    }
+    .dmenu:hover .subdmenu{
+        display: block;
+        margin-left: 21.35vw;
+        margin-top: -1.9vw;
     }
 }
 
 @keyframes dropdown{
     from{height: 0px;padding-top: 0%;padding-bottom: 0%;opacity: 0%;}
-    to{height: 35px;}
+    to{height: 2vw;}
 }
 
 .elfsight-app-2a2b8571-05ca-421f-8429-275affda29f5{
@@ -95,17 +142,7 @@
     padding-top: 20px;
 }
 
-.drop{
-    width: 10px;
-    height: 10px;
-    transition: ease-in-out 0.25s;
-    border: 3px solid white;
-    margin-left: 97px;
-    margin-top: -19px;
-    border-top: 0;
-    border-left: 0;
-    transform: rotate(-45deg);
-}
+
 
 .dropdown:hover .drop{
     transform: rotate(45deg);
@@ -127,7 +164,7 @@
 }
 
 .roingtext{
-    font-size: x-large;
+    font-size: large;
     text-align: justify;
     font-style: italic;
 }
@@ -263,13 +300,7 @@ a{
     background-color: rgb(44, 187, 44);
 }
 
-.submenu{
-    position: absolute;
-    display: block;
-    margin-top: 22px;
-    margin-left: 20px;
-    /* border: 3px solid black; */
-}
+
 .submenu li{
     display: none;
     height: 0px;
@@ -277,15 +308,14 @@ a{
 }
 
 .menu:hover .submenu li{
-    display: flex;
+    display: block;
     animation-name: dropdown;
     animation-duration: 0.5s;
-    padding: 10px 22.5px 10px 27.5px ;
+    padding: 0.5vw 1.5vw 0.5vw 1.8vw ;
     /* text-align: center; */
     /* align-items: center; */
-    justify-content: flex-end;
-    width: 120px;
-    height: 35px;
+    width: 7.8vw;
+    height: 2vw;
     background-color: rgb(255, 255, 255);
     margin-left: -50px;
 }
@@ -295,21 +325,17 @@ a{
 }
 
 
-
+.dscver{
+    position: relative;
+}
 
 .subdmenu{
     display: none;
     margin-right: -192px;
 }
 
-.dmenu:hover a{
-    margin-right: 72px;
-}
+/* .dmenu:hover a{
+    margin-right: 4.68vw;
+} */
 
-.dmenu{
-    height: 50px;
-}
 
-.dmenu:hover .subdmenu{
-    display: block;
-}
